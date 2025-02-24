@@ -153,3 +153,11 @@ a:focus,
 a:active {
   color: #824027;
 }
+.skills {
+  display: flex;
+}
+@media only screen and (max-width: 767px) {
+  .skills {
+    display: block;
+  }
+}
