@@ -660,3 +660,10 @@ p.info {
   color: white;
   transform: rotateY(180deg);
 }
+
+/* charts */
+#chart-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
