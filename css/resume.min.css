@@ -1381,8 +1381,8 @@ body {
   text-align: center;
   border-radius: 4px;
   position: fixed;
-  bottom: 90px;
-  right: 20px;
+  bottom: 1rem;
+  right: 5rem;
   transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
   opacity: 0;
   visibility: hidden;
@@ -1435,4 +1435,7 @@ body {
 .content h3 {
   font-style: italic;
   color: #96a2a7;
+}
+.footer-container {
+  padding: 0.5rem;
 }
